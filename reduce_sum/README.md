@@ -16,7 +16,7 @@ I applied the following techniques for optimization.
 
 ## Performance
 reduce sum of 1.0*10^9 length Vector
-| method |numpy_sum(CPU)  | my_kernel(GPU) | speed-up 
+|  |numpy_sum(CPU)  | my_kernel(GPU) | speed-up 
 |--|--|--|--|
 | Time (ms) | 48.46 |1.15|42.1 x
 
