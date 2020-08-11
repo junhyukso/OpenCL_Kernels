@@ -16,10 +16,11 @@ I applied the following techniques for optimization.
 
 ## Performance
 reduce sum of 1.0*10^9 length Vector
-|  |numpy_sum(CPU)  | my_kernel(GPU) | speed-up 
-|--|--|--|--|
-| Time (ms) | 48.46 |1.15|42.1 x
+|  |numpy_sum(CPU)  |CLBlast(GPU)| my_kernel(GPU) | speed-up (my_kernel / numpy_sum)  
+|--|--|--|--|--| 
+| Time (ms) | 48.46 |4.10|1.15|42.1 x
 
+it is even 3.5x times faster that famous CLBLAS Library ! (CLBlast : https://github.com/CNugteren/CLBlast)
 
 Tested on
 
