@@ -20,7 +20,7 @@ reduce sum of 1.0*10^9 length Vector
 |--|--|--|--|--| 
 | Time (ms) | 48.46 |4.10+α|1.15|42.1 x
 
-it is even 3.5x(at least) times faster that famous CLBLAS Library ! (CLBlast : https://github.com/CNugteren/CLBlast)
+this even 3.5x(at least) times faster that famous CLBLAS Library ! (CLBlast : https://github.com/CNugteren/CLBlast)
 
 Tested on
 
